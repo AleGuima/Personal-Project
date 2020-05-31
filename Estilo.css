@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(Fundo.png);
+    font-family: Arial;
+    font-size: 10px;
+    background-size: auto auto;
+}
+
+@media (min-width: 900px) {
+    body{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1500px) {
+    body{
+        font-size: 1.5em;
+    }
+}
+
+header {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Indie Flower', cursive; 
+}
+  
+.menu {
+    background-color: rgba(163, 163, 190, 0.467);
+    position: fixed;
+    width: 95vw;
+    top: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+  
+.menu ul {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+.contato {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.contato a{
+    color: whitesmoke;
+    font-size: 3em;
+    
+}
+
+.contato a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 10px whitesmoke;
+}
+  
+.site-title{
+    color: yellow;
+    font-size: 5em;
+    text-align: center;
+}
+  
+.site-subtitle{
+    font-style: italic;
+    font-size: 2em;
+    color: pink;
+    text-align: center;
+}
